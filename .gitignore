@@ -1,11 +1,3 @@
-# temporary files
-*.swp
-
-# Output directory
-/bin/
-
-# commom binary files that are not stored on the repository.
-*.zip
 
 # GTFS data files that should not be stored on the repository.
 /data/agency.txt
@@ -20,3 +12,14 @@
 /data/trip_stops.txt
 /data/trips.txt
 
+# temporary files
+*.swp
+
+# Output directory
+/bin/
+
+# commom binary files that are not stored on the repository.
+*.zip
+
+# System files.
+.DS_Store
