@@ -1,0 +1,5 @@
+Check if your city has a publicly available GTFS data in CSV form.
+
+For Porto Alegre, RS, Brasil (the city I'm using as example), data can be
+found at http://datapoa.com.br.
+
