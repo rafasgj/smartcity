@@ -1,0 +1,22 @@
+# temporary files
+*.swp
+
+# Output directory
+/bin/
+
+# commom binary files that are not stored on the repository.
+*.zip
+
+# GTFS data files that should not be stored on the repository.
+/data/agency.txt
+/data/calendar_dates.txt
+/data/calendar.txt
+/data/fare_attributes.txt
+/data/feed_info.txt
+/data/routes.txt
+/data/shapes.txt
+/data/stop_times.txt
+/data/stops.txt
+/data/trip_stops.txt
+/data/trips.txt
+
