@@ -1,4 +1,3 @@
-
 # GTFS data files that should not be stored on the repository.
 /data/agency.txt
 /data/calendar_dates.txt
@@ -14,6 +13,7 @@
 
 # temporary files
 *.swp
+._*
 
 # Output directory
 /bin/
