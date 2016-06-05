@@ -139,8 +139,8 @@ public class GTFSReader {
 	}
 
 	private static LocalDate StringToDate(String data) {
-		return LocalDate.parse(data,
-		                       DateTimeFormatter.ofPattern("yyyyMMdd"));
+		final DateTimeFormatter format=DateTimeFormatter.ofPattern("yyyyMMdd");
+		return LocalDate.parse(data, format);
 	}
 
 	public static Map<String,Trip> loadTrips(String filename,
