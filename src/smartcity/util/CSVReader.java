@@ -31,7 +31,7 @@ public class CSVReader {
 	public CSVReader(String filename, String separator)
 		throws FileNotFoundException
 	{
-		sc = new Scanner(new java.io.File(filename));
+		sc = new Scanner(new java.io.FileReader(filename));
 		configure(separator);
 	}
 	
